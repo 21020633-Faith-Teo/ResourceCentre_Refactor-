@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class ResourceCentre {
-// commit attempt number3
+
 	public static void main(String[] args) {
 		ArrayList<Camcorder> camcorderList = new ArrayList<Camcorder>();
 		ArrayList<Chromebook> chromebookList = new ArrayList<Chromebook>();
