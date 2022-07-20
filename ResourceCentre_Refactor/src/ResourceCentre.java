@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class ResourceCentre {
-
-
+	//Faith
+	//Lili
 	private static final int OPTION_RETURN = 4;
 	private static final int OPTION_LOAN = 3;
 	private static final int OPTION_ADD = 2;
@@ -136,7 +136,9 @@ public class ResourceCentre {
 
 		for (int i = 0; i < camcorderList.size(); i++) {
 
+
 			output += String.format("%-84s\n", camcorderList.get(i).toString());
+
 		}
 		return output;
 	}
@@ -154,6 +156,7 @@ public class ResourceCentre {
 		for (int i = 0; i < chromebookList.size(); i++) {
 
 			output += String.format("%-84s\n", chromebookList.get(i).toString());
+
 		}
 		return output;
 	}
